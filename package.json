@@ -1,8 +1,8 @@
 {
-  "name": "frontend-case",
+  "name": "thermostat-app",
   "version": "1.0.0",
-  "description": "Starter pack for the Quby Frontend interview case",
-  "author": "Steven Straatemans <steven@straatemans.nl>",
+  "description": "Thermostat",
+  "author": "Ilia Barchugov <barchewbacca@gmail.com>",
   "main": "build/index.js",
   "scripts": {
     "startclient": "cd client && npm install && npm start",
@@ -13,7 +13,7 @@
     "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
