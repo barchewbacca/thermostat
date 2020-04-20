@@ -57,7 +57,7 @@ This repo is made to showcase one of the test assignments that I have done. The 
 These instructions will get you a copy of the project up and running on your local machine for
 development and testing purposes.
 
-### Install root dependencies
+### Install server dependencies
 
 ```sh
 # yarn
