@@ -1,0 +1,71 @@
+.thermostat {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: linear-gradient(98deg, #1d4ffd 0%, #fc4545 100%) center/cover no-repeat;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 20px solid white;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.content {
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  position: relative;
+  overflow: hidden;
+}
+
+.current {
+  color: #555555;
+}
+
+.setpoint {
+  font-size: 48px;
+  margin-top: 20px;
+}
+
+.timestamp {
+  font-size: 13px;
+  line-height: 1.25;
+  color: #555555;
+  margin-top: 20px;
+
+  strong {
+    color: black;
+  }
+}
+
+.btn {
+  appearance: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 50px;
+  margin: auto 0;
+  font-size: 32px;
+  cursor: pointer;
+  border: 0;
+
+  &.left {
+    left: 10px;
+  }
+
+  &.right {
+    right: 10px;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}

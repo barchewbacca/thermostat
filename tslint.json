@@ -1,0 +1,23 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-react"],
+  "jsRules": {},
+  "rules": {
+    "trailing-comma": [true],
+    "no-console": [false],
+    "quotemark": [true, "single"],
+    "indent": [true, "spaces", 2],
+    "ordered-imports": [
+      true,
+      {
+        "import-sources-order": "any",
+        "named-imports-order": "case-insensitive"
+      }
+    ],
+    "semicolon": [true, "always", "ignore-bound-class-methods"],
+    "object-literal-sort-keys": false,
+    "jsx-no-lambda": [false],
+    "interface-name": [false]
+  },
+  "rulesDirectory": []
+}
