@@ -14,7 +14,10 @@
         "named-imports-order": "case-insensitive"
       }
     ],
-    "semicolon": [true, "always", "ignore-bound-class-methods"]
+    "semicolon": [true, "always", "ignore-bound-class-methods"],
+    "object-literal-sort-keys": false,
+    "jsx-no-lambda": [false],
+    "interface-name": [false]
   },
   "rulesDirectory": []
 }
