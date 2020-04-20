@@ -20,8 +20,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "test:coverage": "npm run test -- --coverage ",
+    "test": "react-scripts test --watchAll",
+    "test:coverage": "npm run test -- --coverage",
     "e2e": "cypress run",
     "e2e:open": "cypress open",
     "e2e:headed": "cypress run --headed",
@@ -50,6 +50,7 @@
   },
   "jest": {
     "collectCoverageFrom": [
+      "src/components/**/*",
       "!src/index.tsx"
     ]
   }
