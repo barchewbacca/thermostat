@@ -119,7 +119,9 @@ const Thermostat: React.FC = () => {
   return (
     <div className={styles.thermostat} data-testid="thermostat">
       <div className={styles.content}>
-        <span className={styles.current}>{currentTemp}°</span>
+        <span className={styles.current} data-testid="current-temp">
+          {currentTemp}°
+        </span>
         <span className={styles.setpoint} data-testid="setpoint">
           {currentSetpoint.toFixed(1)}°
         </span>
