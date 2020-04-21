@@ -87,6 +87,8 @@ yarn start
 npm run start
 ```
 
+Now you can open the app at `http://localhost:3000/`.
+
 ## 🔧 Running tests <a name = "tests"></a>
 
 There are both unit and e2e tests implemented.
